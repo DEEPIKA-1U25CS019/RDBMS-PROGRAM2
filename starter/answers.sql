@@ -5,7 +5,7 @@ CREATE TABLE Student (
     StudentName VARCHAR(20) NOT NULL UNIQUE,
     DOB DATE NOT NULL,
     Gender VARCHAR(10) NOT NULL,
-    DepartmentID INTEGER(10) NOT NULL);
+    DepartmentID INTEGER(10));
 DESC student;
 INSERT  student VALUES(101,"DEEPIKA","2008-05-02","FEMALE",1001);
 DESC student;

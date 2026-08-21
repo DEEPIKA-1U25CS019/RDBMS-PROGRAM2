@@ -7,5 +7,6 @@ CREATE TABLE Student (
     Gender VARCHAR(10) NOT NULL,
     DepartmentID INT NOT NULL);
 DESC student;
-INSERT INTO student VALUES(101,"DEEPIKA","2008-05-02","FEMALE",1001);
+INSERT  student VALUES(101,"DEEPIKA","2008-05-02","FEMALE",1001);
+DESC student;
 SELECT*FROM student;
